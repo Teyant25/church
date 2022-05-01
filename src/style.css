@@ -1,24 +1,13 @@
 body {
   background-image: linear-gradient(to right, #ffffff, #8cebe9);
 }
-h1,
-h2,
-h3,
-h4 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 h1 {
+  text-align: center;
   color: blueviolet;
   font-size: 50px;
 }
-h2 {
-  color: brown;
-}
-h3 {
-  color: purple;
-  font-style: italic;
-}
+
 h4 {
   font-style: italic;
 }
@@ -28,6 +17,15 @@ p {
   font-size: 25px;
   line-height: 1.5;
   text-align: center;
+}
+.location {
+  font-size: medium;
+  color: brown;
+}
+.schedule {
+  font-size: 20px;
+  color: purple;
+  font-style: italic;
 }
 .image1 {
   display: block;
@@ -42,7 +40,16 @@ p {
   box-shadow: 20px 20px 5px #000;
   background-color: violet;
 }
-.Confession {
+.confession {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+.promises {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
   color: blue;
 }
 .PastorJ {
