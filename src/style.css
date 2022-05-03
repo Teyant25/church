@@ -1,5 +1,9 @@
 body {
-  background-image: linear-gradient(to right, #ffffff, #8cebe9);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/033/366/original/new_cross.jpg?1651573581);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-wrap: normal;
+  height: fit-contents;
 }
 
 h1 {
@@ -18,6 +22,7 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
 .location {
   font-size: medium;
   color: brown;
@@ -60,6 +65,15 @@ p {
 }
 .contact {
   text-align: center;
+}
+.kids {
+  color: purple;
+}
+.info {
+  color: crimson;
+}
+.community {
+  color: darkred;
 }
 
 button {
