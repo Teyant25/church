@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/033/366/original/new_cross.jpg?1651573581);
+  background-image: url(https://media.istockphoto.com/photos/silhouette-of-man-in-praise-and-worship-picture-id157336807?k=20&m=157336807&s=612x612&w=0&h=XG8HeZJqDjqZOnRqz5qdusVDjzBQGE197wSyjSAz-ts=);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-wrap: normal;
@@ -24,13 +24,19 @@ p {
 }
 
 .location {
-  font-size: medium;
-  color: brown;
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+}
+.hearGod {
+  color: red;
 }
 .schedule {
   font-size: 20px;
   color: purple;
   font-style: italic;
+  list-style: none;
+  text-align: center;
 }
 .image1 {
   display: block;
@@ -47,6 +53,7 @@ p {
 }
 .confession {
   text-align: center;
+  text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
   color: green;
 }
@@ -59,4 +66,5 @@ p {
 }
 .contact {
   text-align: center;
+  color: red;
 }
