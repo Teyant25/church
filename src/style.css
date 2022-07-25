@@ -72,3 +72,9 @@ p {
 .underline {
   text-decoration: underline;
 }
+@media (max-width: 600px) {
+  .service {
+    display: block;
+    margin: auto 0;
+  }
+}
