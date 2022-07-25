@@ -23,7 +23,8 @@ p {
   text-align: center;
 }
 .service {
-  margin: 90px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .location {
   text-align: center;
@@ -67,4 +68,7 @@ p {
 .contact {
   text-align: center;
   color: red;
+}
+.underline {
+  text-decoration: underline;
 }
