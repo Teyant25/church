@@ -22,7 +22,9 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-
+.service {
+  margin: 90px;
+}
 .location {
   text-align: center;
   font-size: 25px;
@@ -30,6 +32,8 @@ p {
 }
 .hearGod {
   color: red;
+  font-family: "Edu TAS Beginner", cursive;
+  text-decoration: underline;
 }
 .schedule {
   font-size: 20px;
